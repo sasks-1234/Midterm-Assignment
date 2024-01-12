@@ -1,0 +1,49 @@
+/* category.css */
+
+.categoryname {
+    margin: 20px;
+  }
+  
+  .fontHeading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .middleheading {
+    overflow-x: auto;
+    display: flex;
+    gap: 130px;
+    margin-left: 138px;
+
+  }
+  
+  .middleheading a {
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .middleheading h2 {
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background transition */
+  }
+  
+  .middleheading h2:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+  
+  /* Remove underline from links */
+  .middleheading a {
+    color: black; /* Set link color */
+  }
+  
+  .middleheading a:hover {
+    text-decoration: none; /* Remove underline on hover */
+  }
+  

@@ -1,0 +1,36 @@
+
+
+.home {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .featured {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .products {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product h3 {
+    margin: 10px 0;
+  }
+  
+  .product p {
+    margin-bottom: 20px;
+  }
+  
